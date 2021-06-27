@@ -5,10 +5,11 @@ import { Products, Navbar } from './components';
 const App = () => {
     return (
         <div>
-            <Navbar />
             <Products />
+            <Navbar />
         </div>
     )
 }
 
 export default App;
+
